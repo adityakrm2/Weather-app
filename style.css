@@ -78,7 +78,7 @@ h1.temp {
 
 .weather.loading:after {
   visibility: visible;
-  content: 'Loading...';
+  content: 'Location input...';
   color: white;
   position: absolute;
   top: 0;
