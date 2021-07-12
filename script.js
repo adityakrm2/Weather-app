@@ -9,7 +9,7 @@ let weather = {
         )
             .then((response) => {
                 if (!response.ok) {
-                    alert("No weather found.");
+                    alert("No weather found for input, please enter correct city manually or enable your gps/location and reload");
                     throw new Error("No weather found.");
                 }
                 return response.json();
